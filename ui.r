@@ -58,7 +58,7 @@ shinyUI(
                                                  verbatimTextOutput("fit"))
                             )
                           )
-                        )
+                        ) 
                       )
              ),
              
