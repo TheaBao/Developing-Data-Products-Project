@@ -25,7 +25,7 @@ shinyServer(function(input, output) {
     boxplot(as.formula(formulaText()), 
             data = Data,
             outline = input$outliers)
-  })
+  }) 
   
   output$fit <- renderPrint({
     summary(fit())
