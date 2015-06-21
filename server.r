@@ -29,7 +29,7 @@ shinyServer(function(input, output) {
   
   output$fit <- renderPrint({
     summary(fit())
-  })
+  }) 
   
   output$AirPlot <- renderPlot({
     with(Data, {
