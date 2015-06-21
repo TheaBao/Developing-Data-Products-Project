@@ -57,7 +57,7 @@ shinyUI(
                                                  plotOutput("AirPlot"),
                                                  verbatimTextOutput("fit"))
                             )
-                          )
+                          )  
                         )
                       )
              ),
